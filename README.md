@@ -14,7 +14,7 @@ Importing library:
 The first step is to import the necessary libraries so that we can use specific function of those libraries. 
 
 Importing the data dataset: 
-To predict breast cancer some relevant dataset needs to be imported. To import the dataset from the storage of computer following code is to be executed. 
+To predict breast cancer some relevant dataset needs to be imported.
 
 Preprocessing:  
 The next step is to split the dataset into its attributes and labels.
@@ -31,7 +31,6 @@ It is extremely straight forward to train the KNN algorithm and make predictions
 
 Evaluating the Algorithm:  
 For evaluating an algorithm, confusion matrix, precision, recall and f1 score are the most commonly used metrics. The confusion_matrix and classification_report methods of the sklearn.metrics can be used to calculate these metrics.
-The output of the above script looks like this: 
 
 CONCLUSIONS:
 Breast cancer can’t be prevented.  But early detection can increase the chance of finding breast cancer before it spreads and life can be saved.  This model can predict whether tumor is malignant or benign with great accuracy that can be helpful for the doctor to take quick decision.
