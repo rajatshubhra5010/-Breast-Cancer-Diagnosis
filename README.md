@@ -26,6 +26,7 @@ feature scaling:
 Before making any actual predictions, it is always a good practice to scale the features so that all of them can be uniformly evaluated.
 
 Training and prediction:
+
 It is extremely straight forward to train the KNN algorithm and make predictions with it, especially when using Scikit-Learn. 
 ‘KNeighborsClassifier’ is to be imported first class from the ‘sklearn.neighbors’ library. In the second step this class is initialized with one parameter that is nothing but the value for the K. Here, we have taken k=5. The final step is to make predictions on our test data.
 
@@ -33,5 +34,6 @@ Evaluating the Algorithm:
 For evaluating an algorithm, confusion matrix, precision, recall and f1 score are the most commonly used metrics. The confusion_matrix and classification_report methods of the sklearn.metrics can be used to calculate these metrics.
 The output of the above script looks like this: 
 
-CONCLUSIONS: 
+CONCLUSIONS:
+
 Breast cancer can’t be prevented.  But early detection can increase the chance of finding breast cancer before it spreads and life can be saved.  This model can predict whether tumor is malignant or benign with great accuracy that can be helpful for the doctor to take quick decision.
